@@ -2,64 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kcx1 Codes - Custom Software Development</title>
+    <title>Kcx1 Codes - Freelance Software Development</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <!-- Header Section -->
-    <header>
-        <h1>Kcx1 Codes</h1>
-        <p>Custom Software Solutions for AV Systems & Web APIs</p>
+    <header id="home">
         <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#policies">Policies</a></li>
+            <ul id="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Section -->
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I’m a software developer specializing in AV system control, Python, Lua, and backend development. I help businesses streamline automation, optimize existing systems, and integrate new technologies.</p>
+        <section id="about-me">
+            <h1>About Me</h1>
+            <p>I'm a freelance software developer with a strong background in AV system integration, API development, and cloud deployment. With over 12 years of experience in AV technology and 5 years in software development, I specialize in building robust, scalable solutions that streamline workflows and enhance system efficiency.</p>
+            <p>My expertise includes designing custom software solutions, integrating third-party systems, and optimizing performance for businesses in various industries. I am proficient in Python, Lua, and Rust, ensuring flexible and maintainable code tailored to your needs.</p>
         </section>
 
+        <!-- Services Section -->
         <section id="services">
-            <h2>Services</h2>
-            <p>I provide custom software development, system integration, and optimization services.</p>
+            <h1>Services</h1>
+            <p>I provide a range of software development services, including custom application development, system integrations, and ongoing support. Whether you're looking to automate workflows, improve AV system functionality, or deploy cloud-based applications, I have the skills to help.</p>
             <ul>
-                <li>Custom Software Development</li>
-                <li>Integration with Existing Systems</li>
-                <li>System Optimization & Maintenance</li>
+                <li><strong>Custom Software Development:</strong> Tailored solutions designed to fit your specific needs.</li>
+                <li><strong>Integration with Existing Systems:</strong> Seamless connectivity with third-party APIs and AV equipment.</li>
+                <li><strong>System Optimization & Maintenance:</strong> Enhancing performance, troubleshooting issues, and keeping your systems up to date.</li>
+                <li><strong>Cloud Deployment:</strong> Hosting applications securely and efficiently in the cloud.</li>
             </ul>
-            <button class="cta-button" id="quote-btn">Get a Quote</button>
+            <button id="quote-btn">Get a Quote</button>
         </section>
 
+        <!-- Contact Section -->
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:kcx1codes@gmail.com">kcx1codes@gmail.com</a></p>
-            <p>Phone: (407) 374-9014</p>
-        </section>
-
-        <section id="policies">
-            <h2>Policies</h2>
-            <h3>Refund Policy</h3>
-            <p>Due to the nature of custom software development, refunds are not provided once a project milestone is completed.</p>
-            <h3>Cancellation Policy</h3>
-            <p>Clients may cancel projects before development begins. If work has started, partial refunds are available based on completed milestones.</p>
+            <h1>Contact</h1>
+            <p>Let's discuss your project and how I can help bring your ideas to life. Feel free to reach out via email or phone:</p>
+            <p>Email: <a href="mailto:contact@kcx1codes.com">contact@kcx1codes.com</a></p>
+            <p>Phone: +1 (555) 123-4567</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Kcx1 Codes. All rights reserved.</p>
+        <p>&copy; 2025 Kcx1 Codes. All Rights Reserved.</p>
     </footer>
-    
+
+    <!-- Script Section -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        document.getElementById("quote-btn").addEventListener("click", function() {
+            window.location.href = "mailto:contact@kcx1codes.com?subject=Request for Quote&body=Hi, I’d like a quote for...";
+        });
+    </script>
 </body>
 </html>
