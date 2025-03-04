@@ -110,3 +110,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Social Links */
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #17a2b8;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #138496;
+}
