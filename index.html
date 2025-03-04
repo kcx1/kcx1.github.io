@@ -20,19 +20,11 @@
 
     <!-- Main Section -->
     <main id="main">
-        <section id="main">
-            <h1>Kcx1 Codes</h1>
-            <p>I'm a software developer who works with AV systems, and I've got experience with Python, Lua, and I'm currently learning Rust. I enjoy building web APIs, server-side logic, and deploying to the cloud.</p>
-        </section>
-
-        <!-- About Me Section -->
         <section id="about-me">
             <h1>About Me</h1>
             <p>I'm a software developer who works with AV systems, and I've got experience with Python, Lua programming languages, with a focus on AV system control. My experience in designing web APIs and server-side logic, as well as deploying to the cloud, has taught me the importance of attention to detail.</p>
-            <ul>
-                <li><a href="#custom-software-development">Custom Software Development</a></li>
-                <li><a href="#integration-with-existing-systems">Integration with Existing Systems</a></li>
-                <li><a href="#system-optimization-and-maintenance">System Optimization and Maintenance</a></li>
+            <ul id="about-list">
+                <!-- List items will be generated dynamically -->
             </ul>
         </section>
 
@@ -40,11 +32,25 @@
         <section id="services">
             <h1>Services</h1>
             <p>I offer custom software development services, including integration with existing systems and system optimization and maintenance.</p>
-            <ul>
-                <li><a href="#custom-software-development">Custom Software Development</a></li>
-                <li><a href="#integration-with-existing-systems">Integration with Existing Systems</a></li>
-                <li><a href="#system-optimization-and-maintenance">System Optimization and Maintenance</a></li>
-            </ul>
+            <div class="service-lists">
+                <button class="expand-button" id="custom-software-development">Custom Software Development</button>
+                <div id="custom-software-content" style="display: none;">
+                    <h2>Custom Software Development</h2>
+                    <p>This service involves creating custom software applications tailored to meet the specific needs of your business. I have experience with a variety of programming languages, including Python and Lua.</p>
+                </div>
+
+                <button class="expand-button" id="integration-with-existing-systems">Integration with Existing Systems</button>
+                <div id="integration-content" style="display: none;">
+                    <h2>Integration with Existing Systems</h2>
+                    <p>This service involves integrating custom software applications with existing systems and infrastructure. I have experience working with a variety of operating systems, including Windows, macOS, and Linux.</p>
+                </div>
+
+                <button class="expand-button" id="system-optimization-and-maintenance">System Optimization and Maintenance</button>
+                <div id="maintenance-content" style="display: none;">
+                    <h2>System Optimization and Maintenance</h2>
+                    <p>This service involves optimizing and maintaining existing systems to ensure they are running efficiently and effectively. I have experience with a variety of system administration tools, including Ansible and Puppet.</p>
+                </div>
+            </div>
         </section>
 
         <!-- Contact Section -->
@@ -61,5 +67,6 @@
     <!-- Script Section -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
